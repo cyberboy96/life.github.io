@@ -1,0 +1,329 @@
+body {
+    background-color: rgb(31, 27, 27);
+}
+
+.container {
+    width: 100%;
+    height: 80%;
+    background-color: red;
+    background-image: url(/image/group.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    opacity: 0.8;
+}
+
+.container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 400px;
+    margin-left: 40%;
+}
+
+.container span {
+    position: relative;
+    bottom: 19px;
+    left: 40%;
+    color: white;
+    font-size: 27px;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+    opacity: 0px;
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container p {
+    text-align: center;
+    color: white;
+    opacity: 0px;
+    position: relative;
+    bottom: 25px;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.head {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(48, 43, 43);
+    display: flex;
+}
+
+.pic {
+    width: 40%;
+    height: 55vh;
+    background-color: rgb(0, 255, 0);
+    margin-left: 10%;
+    box-shadow: 2px 2px 3px 2px;
+    border: 1px solid silver;
+    margin-top: 6px;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(43, 40, 40);
+    margin-top: 15px;
+    margin-right: 17px;
+    margin-left: 15px;
+    border: 1px solid silver;
+
+}
+
+.content h1 {
+    position: relative;
+    right: 20vh;
+    bottom: 9vh;
+    padding-right: 40vh;
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.content p {
+    color: white;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 25px;
+}
+
+.content .para {
+    position: relative;
+    bottom: 7px;
+    left: 27px;
+    color: silver;
+    font-size: 24px;
+}
+
+.content button {
+    position: relative;
+    bottom: 70%;
+    left: 50%;
+    margin-bottom: 90%;
+
+    color: white;
+    background-color: black;
+    background: transparent;
+    width: 100px;
+    height: 25px;
+    border: 1px solid silver;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.artist {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(48, 43, 43);
+    /* display: flex; */
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box1 {
+    width: 15%;
+    height: 80%;
+    background-color: red;
+    float: left;
+    margin: 17px;
+    position: relative;
+    bottom: 30px;
+    background-image: url(/image/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
+
+h4 {
+    padding-top: 33vh;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box2 {
+    width: 16%;
+    height: 80%;
+    background-color: rgb(43, 13, 13);
+    float: left;
+    margin: 17px;
+    position: relative;
+    bottom: 30px;
+    background-image: url(/image/img7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
+
+.box3 {
+    width: 17%;
+    height: 80%;
+    background-color: rgb(34, 43, 34);
+    float: left;
+    margin: 17px;
+    position: relative;
+    bottom: 30px;
+    background-image: url(/image/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
+
+.box4 {
+    width: 16%;
+    height: 80%;
+    background-color: rgb(66, 44, 146);
+    float: left;
+    margin: 17px;
+    position: relative;
+    bottom: 27px;
+    background-image: url(/image/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
+
+.box5 {
+    width: 15%;
+    height: 80%;
+    background-color: rgb(106, 16, 167);
+    float: left;
+    margin: 17px;
+    position: relative;
+    bottom: 30px;
+    background-image: url(/image/img6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+
+
+}
+
+.contact {
+    width: 100%;
+    height: 60%;
+    background-color: rgb(48, 42, 42);
+    display: flex;
+}
+
+.sentance {
+    width: 27%;
+    height: 80%;
+    background-color: rgb(48, 42, 42);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+p {
+    padding-left: 10px;
+    color: white;
+}
+
+span {
+    position: relative;
+    bottom: 24vh;
+    left: 56%;
+    color: white;
+
+
+}
+
+b {
+    position: relative;
+    bottom: 45%;
+    left: 37%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+}
+
+i {
+    position: relative;
+    bottom: 27%;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.detail {
+    width: 40%;
+    height: 80%;
+    background-color: rgb(48, 42, 42);
+    margin-left: 10px;
+    margin-right: 12px;
+    margin-top: 10px;
+
+}
+
+.detail h1 {
+    position: relative;
+    bottom: 22%;
+    color: white;
+    font-size: 29px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+button {
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: rgb(48, 42, 42);
+}
+
+input {
+
+
+    margin: 10px;
+    position: relative;
+    bottom: 20px;
+    left: 18px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid silver;
+    background: transparent;
+    color: white;
+}
+
+
+.map {
+    width: 48%;
+    height: 85%;
+    background-color: palevioletred;
+    background-image: url(/image/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
